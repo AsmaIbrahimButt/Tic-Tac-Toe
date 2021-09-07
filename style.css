@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #047aa1 0%, #ddd8db 100%);
+}
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 0px;
+    margin:10px auto;
+    background-color:grey ;
+     border-radius: 10%;
+}
+table tr td{
+    width:80px;
+    height: 80px;
+    border: 1px solid rgb(255, 255,255,.5);
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+table tr td:hover{
+background: #2c3531;
+cursor: pointer;
+border-radius: 25px;
+}
+
+.but
+{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: #000;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transform: translate(-50%,-50%);
+    left: 50.1%;
+    top: 75%;
+}
+.text
+{
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-weight: 500;
+    color: black;
+    font-size: 30px;
+}
+.shift
+{
+    top: 50%;
+    left:50%;
+    transform: translate(1%,100%);
+
+}
+.text1
+{
+    text-align: center;
+    top:20%;
+    left: 50%;
+    transform: translate(-45%,200%);
+    position: absolute;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+  
+
+}
+
+.but:hover{
+    color:#3FC80E;
+}
+
+.but{
+    position: relative;
+    bottom: 50px;
+    right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
